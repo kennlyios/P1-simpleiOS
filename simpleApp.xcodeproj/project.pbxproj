@@ -13,6 +13,8 @@
 		3E0751121B6A077100CBE645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0751111B6A077100CBE645 /* Images.xcassets */; };
 		3E0751151B6A077100CBE645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0751131B6A077100CBE645 /* LaunchScreen.xib */; };
 		3E0751211B6A077100CBE645 /* simpleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0751201B6A077100CBE645 /* simpleAppTests.swift */; };
+		3E07512C1B6A0ADC00CBE645 /* Factbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E07512B1B6A0ADC00CBE645 /* Factbook.swift */; };
+		3E07512E1B6A438800CBE645 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E07512D1B6A438800CBE645 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		3E07511A1B6A077100CBE645 /* simpleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E07511F1B6A077100CBE645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0751201B6A077100CBE645 /* simpleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleAppTests.swift; sourceTree = "<group>"; };
+		3E07512A1B6A07D400CBE645 /* scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scratchpad.playground; sourceTree = "<group>"; };
+		3E07512B1B6A0ADC00CBE645 /* Factbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factbook.swift; sourceTree = "<group>"; };
+		3E07512D1B6A438800CBE645 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +85,12 @@
 				3E07510A1B6A077100CBE645 /* AppDelegate.swift */,
 				3E07510C1B6A077100CBE645 /* ViewController.swift */,
 				3E07510E1B6A077100CBE645 /* Main.storyboard */,
+				3E07512D1B6A438800CBE645 /* ColorWheel.swift */,
+				3E07512B1B6A0ADC00CBE645 /* Factbook.swift */,
 				3E0751111B6A077100CBE645 /* Images.xcassets */,
 				3E0751131B6A077100CBE645 /* LaunchScreen.xib */,
 				3E0751081B6A077100CBE645 /* Supporting Files */,
+				3E07512A1B6A07D400CBE645 /* scratchpad.playground */,
 			);
 			path = simpleApp;
 			sourceTree = "<group>";
@@ -214,6 +222,8 @@
 			files = (
 				3E07510D1B6A077100CBE645 /* ViewController.swift in Sources */,
 				3E07510B1B6A077100CBE645 /* AppDelegate.swift in Sources */,
+				3E07512C1B6A0ADC00CBE645 /* Factbook.swift in Sources */,
+				3E07512E1B6A438800CBE645 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
